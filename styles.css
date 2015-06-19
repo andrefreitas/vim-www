@@ -1,0 +1,46 @@
+/* Constants */
+/* Common */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 15px;
+  overflow: auto; }
+
+/* Header */
+header {
+  border-top: solid 5px #007f00;
+  overflow: auto; }
+  header .container {
+    display: table; }
+  header .logo {
+    display: table-cell; }
+  header nav {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right; }
+    header nav a {
+      text-decoration: none;
+      color: #007f00;
+      margin: 0 20px;
+      display: inline-block; }
+      header nav a.download {
+        background: #007f00;
+        padding: 5px 10px;
+        color: white; }
+      header nav a.download:hover {
+        background: #009700;
+        text-decoration: none; }
+      header nav a:hover {
+        text-decoration: underline; }
+
+/* Feature */
+.feature {
+  background: #efefef;
+  min-height: 400px; }
+
+/*# sourceMappingURL=styles.css.map */

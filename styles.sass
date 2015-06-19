@@ -1,0 +1,64 @@
+
+/* Constants */
+
+$width: 1000px
+$green: #007f00
+$green-hover: #009700
+
+/* Common */
+
+body
+  margin: 0
+  padding: 0
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+
+
+.container
+  width: $width
+  margin: 0 auto
+  padding: 15px
+  overflow: auto
+
+
+
+/* Header */
+header
+  border-top: solid 5px #007f00
+  overflow: auto
+
+  .container
+    display: table
+
+  .logo
+    display: table-cell
+
+  nav
+    display: table-cell
+    vertical-align: middle
+    text-align: right
+
+    a
+      text-decoration: none
+      color: $green
+      margin: 0 20px
+      display: inline-block
+
+      &.download
+        background: $green
+        padding: 5px 10px
+        color: white
+
+      &.download:hover
+        background: $green-hover
+        text-decoration: none
+
+      &:hover
+        text-decoration: underline
+
+
+    
+/* Feature */
+.feature
+  background: #efefef
+  min-height: 400px
+
