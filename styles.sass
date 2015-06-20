@@ -4,6 +4,10 @@
 $width: 1000px
 $green: #007f00
 $green-hover: #009700
+$gray: #303030
+$font-normal: 16px
+$font-smaller: 13px
+$font-big: 19px
 
 /* Common */
 
@@ -11,6 +15,7 @@ body
   margin: 0
   padding: 0
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+  font-size: $font-normal
 
 
 .container
@@ -19,6 +24,22 @@ body
   padding: 15px
   overflow: auto
 
+.btn
+  border: none
+  border-radius: 0
+  -webkit-appearance: none
+  cursor: pointer
+
+.btn-green
+  color: white
+  background: $green
+
+  &:hover
+    background: $green-hover
+
+.btn-big
+  padding: 15px 20px
+  font-size: $font-big
 
 
 /* Header */
@@ -56,8 +77,44 @@ header
         text-decoration: underline
 
 
-    
+
+
 /* Feature */
 .feature
   background: #efefef
   min-height: 400px
+  padding: 50px 0
+
+  .message
+    margin-left: 70px
+    display: inline-block
+
+
+
+    button
+      margin-top: 30px
+
+/* Shell */
+.shell
+  display: inline-block
+  float: left
+  width: 540px
+  font-size: $font-smaller
+  border: solid 1px #9f9f9f
+  color: $gray
+
+  .head
+    padding: 5px
+    background: #c3c3c3
+    text-align: center
+
+  .content
+    font-family: "Lucida Console"
+    color: white
+    background: $gray
+    padding: 10px
+    line-height: 1.5em
+    font-weight: lighter
+
+    .blue
+      color: green
