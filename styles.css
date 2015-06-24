@@ -45,11 +45,11 @@ header {
       color: #007f00;
       margin: 0 20px;
       display: inline-block; }
-      header nav a.download {
+      header nav a.login {
         background: #007f00;
         padding: 5px 10px;
         color: white; }
-      header nav a.download:hover {
+      header nav a.login:hover {
         background: #009700;
         text-decoration: none; }
       header nav a:hover {
